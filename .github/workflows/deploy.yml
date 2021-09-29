@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+  workflow_dispach:
+    branches:
+      - main
 
 env:
   AWS_REGION: ap-northeast-1
